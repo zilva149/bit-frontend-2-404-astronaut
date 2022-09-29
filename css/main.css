@@ -34,6 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--primary-color);
 }
 
 ul {
@@ -52,9 +53,17 @@ img {
     width: 100%;
 }
 
+.center-container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px var(--black), -5px -5px 5px var(--black);
+}
+
 .container {
-    width: 800px;
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -83,11 +92,8 @@ img {
     Header
 =========== */
 
-header {
-    padding: 1.5rem 0;
-}
-
 header .container {
+    padding: 1.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -155,11 +161,8 @@ main .container {
     Footer
 ============= */
 
-footer {
-    padding: 2rem 0;
-}
-
 footer .container {
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,10 +173,21 @@ footer .icon {
 }
 
 footer i {
+    color: var(--primary-color);
     font-size: 1.4rem;
     opacity: 0.4;
+    transition: var(--transition);
+}
+
+footer i:hover {
+    opacity: 1;
 }
 
 footer .footer-text {
     font-weight: 700;
 }
+
+/* =================
+    Media Queries
+================== */
+
