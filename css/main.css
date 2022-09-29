@@ -1,0 +1,179 @@
+/* ===============
+    Imports
+=============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* ================
+    Global Styles
+================= */
+
+:root {
+    --primary-color: #664499;
+    --grey: #999;
+    --black: #333;
+    --white: #fff;
+    --transition: all ease-in 0.2s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--black);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 0.9rem;
+    border: solid 2px var(--primary-color);
+    padding: 0.75rem 2.25rem;
+    border-radius: 25px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    transform: scale(0.95);
+}
+
+.btn-dark {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* ==========
+    Header
+=========== */
+
+header {
+    padding: 1.5rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+header .links {
+    display: flex;
+}
+
+header .link {
+    margin-right: 2rem;
+}
+
+header .link a {
+    font-size: 0.8rem;
+    transition: var(--transition);
+}
+
+header .link a:hover {
+    color: var(--primary-color);
+}
+
+/* ===============
+    Main Content
+=============== */
+
+main .container {
+    display: flex;
+}
+
+.text-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content h1 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.text-content .highlight {
+    font-weight: 700;
+}
+
+.text-content p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.text-content .btn-container {
+    padding: 2rem 0;
+}
+
+/* =============
+    Footer
+============= */
+
+footer {
+    padding: 2rem 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icon {
+    margin-left: 1rem;
+}
+
+footer i {
+    font-size: 1.4rem;
+    opacity: 0.4;
+}
+
+footer .footer-text {
+    font-weight: 700;
+}
