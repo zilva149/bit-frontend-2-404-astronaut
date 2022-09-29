@@ -15,6 +15,7 @@ Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
 - CSS3 Flexbox
 - main title line - pseudo element
 - icons
+- media queries for responsive design
 
 ## Authors
 
