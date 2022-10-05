@@ -2,7 +2,7 @@
 
 ## Project information
 
-Site publishes at: https://zilva149.github.io/bit-frontend-3-404-moon/
+Site publishes at: https://zilva149.github.io/bit-frontend-2-404-astronaut/
 
 Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
 
